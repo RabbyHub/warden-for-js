@@ -1,5 +1,5 @@
 {
-  "name": "warden-for-js",
+  "name": "@rabby-wallet/warden-for-js",
   "version": "4.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -7,6 +7,9 @@
     "build": "tsc",
     "check": "tsc --noEmit",
     "test": "npm run build && node --test test/*.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "type": "commonjs",
   "author": "",
